@@ -6,12 +6,14 @@ import Menu from '../../components/Menu';
 import Cards from '../../components/Cards';
 import CardsInfo from '../../components/CardsInfo';
 import Extra from '../../components/Extra';
+import HelpMe from '../../components/HelpMe';
 
 
 import {
   Container,
   Content,
-  Main
+  Main,
+  MenuContainer
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -20,7 +22,10 @@ const Dashboard: React.FC = () => {
       <Header />
       <HeaderGradient />
       <Content>
-        <Menu />
+        <MenuContainer>
+          <Menu />
+          <HelpMe />
+        </MenuContainer>
         <Main>
           <Cards />
           <CardsInfo />

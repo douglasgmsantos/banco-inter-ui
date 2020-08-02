@@ -16,3 +16,5 @@ export const Content = styled.div`
 export const Main = styled.div`
   padding: ${p => p.theme.spacing.horizontal};
 `;
+
+export const MenuContainer = styled.div``;
