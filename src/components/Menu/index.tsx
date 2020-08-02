@@ -66,7 +66,7 @@ const Menu: React.FC = () => {
       <Balance>
         <BalanceDetail>
           <BalanceText>Saldo em conta</BalanceText>
-          <BalanceValue>R$ <Bold> 1.000,00</Bold> </BalanceValue>
+          <BalanceValue>R$ <Bold> 1.000.000,00</Bold> </BalanceValue>
         </BalanceDetail>
         <IconVisibility size={20} />
       </Balance>
