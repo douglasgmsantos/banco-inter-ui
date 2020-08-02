@@ -75,6 +75,10 @@ export const ItemMenu = styled.div`
   border-bottom: 1px solid ${p => p.theme.colors.lightGrey};
   cursor: pointer;
   padding: ${p => p.theme.spacing.vertical};
+
+  :focus, :hover {
+    color: ${p => p.theme.colors.primary};
+  }
 `;
 
 export const ItemMenuIcon = styled.div`

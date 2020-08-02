@@ -8,7 +8,11 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   top: -35px;
   position: relative;
+`;
+
+export const Main = styled.div`
+  padding: ${p => p.theme.spacing.horizontal};
 `;

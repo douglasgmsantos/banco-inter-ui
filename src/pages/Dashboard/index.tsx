@@ -3,11 +3,14 @@ import React from 'react';
 import Header from '../../components/Header';
 import HeaderGradient from '../../components/HeaderGradient';
 import Menu from '../../components/Menu';
+import Cards from '../../components/Cards';
+import CardsInfo from '../../components/CardsInfo';
 
 
 import {
   Container,
-  Content
+  Content,
+  Main
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -17,7 +20,10 @@ const Dashboard: React.FC = () => {
       <HeaderGradient />
       <Content>
         <Menu />
-
+        <Main>
+          <Cards />
+          <CardsInfo />
+        </Main>
       </Content>
     </Container>
   )
