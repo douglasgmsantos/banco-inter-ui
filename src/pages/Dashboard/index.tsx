@@ -7,6 +7,7 @@ import Cards from '../../components/Cards';
 import CardsInfo from '../../components/CardsInfo';
 import Extra from '../../components/Extra';
 import HelpMe from '../../components/HelpMe';
+import Footer from '../../components/Footer';
 
 
 import {
@@ -32,6 +33,7 @@ const Dashboard: React.FC = () => {
           <Extra />
         </Main>
       </Content>
+      <Footer />
     </Container>
   )
 }

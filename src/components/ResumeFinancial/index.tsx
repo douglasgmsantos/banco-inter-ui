@@ -27,8 +27,7 @@ const ResumeFinancial: React.FC = () => {
         <MdVisibility size={16} style={{ cursor: "pointer" }} />
       </Header>
       <Main>
-        {/* <ChartResumeFinancial /> */}
-        <DetailResumeFinancial />
+        <ChartResumeFinancial />
         <DetailResumeFinancial />
       </Main>
     </Container>

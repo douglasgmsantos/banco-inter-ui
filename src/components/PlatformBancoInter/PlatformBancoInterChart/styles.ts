@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 
-export const ChartBalanceImage = styled.img`
+export const ChartImage = styled.img`
   width: 10.0rem;
   height: 10.0rem;
 `;

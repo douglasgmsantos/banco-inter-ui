@@ -1,9 +1,18 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import ChartBalance from "../../assets/img/chart-balance.png";
+
+import {
+  Container,
+  ChartBalanceImage
+} from './styles';
 
 const ChartResumeFinancial: React.FC = () => {
-  return <div />;
+  return (
+    <Container>
+      <ChartBalanceImage src={ChartBalance} />
+    </Container>
+  )
 }
 
 export default ChartResumeFinancial;

@@ -3,6 +3,7 @@ import { MdVisibility } from 'react-icons/md';
 
 import PlatformBancoInterAsset from '../../assets/img/banco-inter-internetbanking.png';
 import PlatformBancoInterDetail from './PlatformBancoInterDetail';
+import PlatformBancoInterChart from './PlatformBancoInterChart';
 
 
 import {
@@ -27,7 +28,7 @@ const PlatformBancoInter: React.FC = () => {
         <MdVisibility size={16} style={{ cursor: "pointer" }} />
       </Header>
       <Main>
-        <PlatformBancoInterDetail />
+        <PlatformBancoInterChart />
         <PlatformBancoInterDetail />
       </Main>
     </Container>
