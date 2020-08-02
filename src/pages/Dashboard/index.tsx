@@ -5,6 +5,7 @@ import HeaderGradient from '../../components/HeaderGradient';
 import Menu from '../../components/Menu';
 import Cards from '../../components/Cards';
 import CardsInfo from '../../components/CardsInfo';
+import Extra from '../../components/Extra';
 
 
 import {
@@ -23,6 +24,7 @@ const Dashboard: React.FC = () => {
         <Main>
           <Cards />
           <CardsInfo />
+          <Extra />
         </Main>
       </Content>
     </Container>

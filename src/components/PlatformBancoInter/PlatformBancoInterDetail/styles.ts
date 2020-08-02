@@ -16,5 +16,6 @@ export const PlatformMonth = styled.div`
 `;
 
 export const PlatformValue = styled.div`
+  font-weight: bold;
   color: ${p => p.theme.colors.mediumGrey};
 `;
