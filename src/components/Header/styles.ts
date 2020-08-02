@@ -41,6 +41,7 @@ export const SimulationRF = styled.button`
   height: 40px;
   width: 173px;
   border-radius: 5px;
+  font-size: ${p => p.theme.fontSizes.default};
 
   :hover, :focus {
     background: ${p => p.theme.colors.background};

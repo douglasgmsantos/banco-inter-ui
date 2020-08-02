@@ -1,10 +1,25 @@
 import React from 'react';
 
 import Header from '../../components/Header';
+import HeaderGradient from '../../components/HeaderGradient';
+import Menu from '../../components/Menu';
+
+
+import {
+  Container,
+  Content
+} from './styles';
 
 const Dashboard: React.FC = () => {
   return (
-    <Header />
+    <Container>
+      <Header />
+      <HeaderGradient />
+      <Content>
+        <Menu />
+
+      </Content>
+    </Container>
   )
 }
 
